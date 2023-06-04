@@ -661,6 +661,9 @@ url("img/home%20img.webp") 2x);
 	.bloc-divider-b-9539-fill{
 		fill:var(--swatch-var-7672);
 	}
+	.bloc-divider-b-fill{
+		fill:var(--swatch-var-6172);
+	}
 	
 }
 
