@@ -53,6 +53,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-lg{
 	padding:100px 20px;
 }
+.bloc-md{
+	padding:50px 20px;
+}
+.bloc-sm{
+	padding:20px;
+}
 
 
 /* Edge Dividers */
@@ -79,6 +85,22 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-divider-bottom{
 	bottom:-1px;
 	align-items: flex-end;
+}
+
+
+/* Background Textures */
+
+.bloc-bg-texture::before{
+	content:"";
+	background-size: 2px 2px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+.texture-darken::before{
+	background: rgba(0,0,0,0.5);
 }
 
 
@@ -243,6 +265,9 @@ button{
 
 /* = Icons
 -------------------------------------------------------------- */
+.icon-md{
+	font-size:30px!important;
+}
 .icon-lg{
 	font-size:60px!important;
 }
@@ -400,11 +425,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Swatch Variables */
 :root{
 	
-	--swatch-var-6172:rgba(255,255,255,1.0);
+	--swatch-var-6172:rgba(255,255,255,1.00);
 	
 	--swatch-var-4495:#3B3B3B;
 	
-	--swatch-var-7672:#54B4E6;
+	--swatch-var-7672:rgba(84,180,230,1.00);
+	
+	--swatch-var-286:rgba(255,255,255,0.54);
 	
 }
 
@@ -416,6 +443,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-7672{
 	background-color:var(--swatch-var-7672);
+}
+.bgc-286{
+	background-color:var(--swatch-var-286);
+}
+.bgc-6172{
+	background-color:var(--swatch-var-6172);
 }
 
 /* Text colour styles */
@@ -544,3 +577,71 @@ url("img/home%20img.webp") 2x);
 	   height: 320px;
     }
 }
+
+@media (max-width: 991px){
+	.bloc-divider-b-9539-fill{
+		fill:var(--swatch-var-7672);
+	}
+	.bloc-divider-b-21230-fill{
+		fill:var(--swatch-var-7672);
+	}
+	
+}
+
+@media (max-width: 767px){
+	.bloc-divider-b-0-fill{
+		fill:var(--swatch-var-7672);
+	}
+	.bloc-divider-b-style{
+		fill:var(--swatch-var-6172);
+	}
+	.bloc-divider-b-21230-fill{
+		fill:var(--swatch-var-6172);
+	}
+	.bloc-divider-b-9539-fill{
+		fill:var(--swatch-var-7672);
+	}
+	
+}
+
+@media (max-width: 575px){
+	.p-bloc-0-style{
+		font-size:15px;
+	}
+	.bloc-divider-b-0-fill{
+		fill:var(--swatch-var-7672);
+	}
+	.p-style{
+		font-size:20px;
+	}
+	.h2-style{
+		font-size:37px;
+	}
+	.bloc-divider-t-fill{
+		fill:var(--swatch-var-6172);
+		height:px;
+		width:100%;
+	}
+	.bloc-divider-b-21230-fill{
+		fill:var(--swatch-var-6172);
+	}
+	.bloc-divider-b-style{
+		height:0px;
+	}
+	.img-20210814-2020-style{
+		width:150px;
+		height:150px;
+	}
+	.p-3-style{
+		font-size:15px;
+	}
+	.img-15-style{
+		width:150px;
+		height:150px;
+	}
+	.bloc-divider-b-9539-fill{
+		fill:var(--swatch-var-7672);
+	}
+	
+}
+
