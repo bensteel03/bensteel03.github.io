@@ -88,6 +88,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Flip Edge Divider */
+
+.bloc-divider-flip-x svg{
+	transform:scale(-1,1);
+}
+.bloc-divider-flip-y svg{
+	transform:scale(1,-1);
+}
+.bloc-divider-flip-x.bloc-divider-flip-y svg{
+	transform:scale(-1,-1);
+}
+
+
 /* Background Textures */
 
 .bloc-bg-texture::before{
@@ -385,7 +398,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	fill:#FFFFFF;
 }
 .bloc-divider-t-fill{
-	fill:#FFFFFF;
+	fill:transparent;
 }
 .h6-style{
 	font-size:18px;
@@ -421,6 +434,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-28-style{
 	width:513px;
 }
+.img-20210814-2020-style{
+	width:150px;
+}
+.bloc-divider-b-bloc-0-fill{
+	fill:var(--swatch-var-7672);
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -441,9 +460,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
-.bgc-4495{
-	background-color:var(--swatch-var-4495);
-}
 .bgc-7672{
 	background-color:var(--swatch-var-7672);
 }
