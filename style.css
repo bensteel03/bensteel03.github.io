@@ -54,37 +54,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:100px 20px;
 }
 
-/* = Full Screen Blocs 
--------------------------------------------------------------- */
-
-.bloc-fill-screen{
-	min-height:100vh;
-	display: flex;
-	flex-direction: column;
-	padding-top:20px;
-	padding-bottom:20px;
-}
-.bloc-fill-screen > .container{
-	align-self: flex-middle;
-	flex-grow: 1;
-	display: flex;
-	flex-wrap: wrap;
-}
-.bloc-fill-screen > .container > .row{
-	flex-grow: 1;
-	align-self: center;
-	width:100%;
-}
-.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
-	flex-grow: 0;
-}
-.bloc-fill-screen .fill-bloc-top-edge{
-	align-self: flex-start;
-}
-.bloc-fill-screen .fill-bloc-bottom-edge{
-	align-self: flex-end;
-}
-
 
 /* Edge Dividers */
 
@@ -110,19 +79,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-divider-bottom{
 	bottom:-1px;
 	align-items: flex-end;
-}
-
-
-/* Flip Edge Divider */
-
-.bloc-divider-flip-x svg{
-	transform:scale(-1,1);
-}
-.bloc-divider-flip-y svg{
-	transform:scale(1,-1);
-}
-.bloc-divider-flip-x.bloc-divider-flip-y svg{
-	transform:scale(-1,-1);
 }
 
 
@@ -285,6 +241,11 @@ button{
 }
 
 
+/* = Icons
+-------------------------------------------------------------- */
+.icon-lg{
+	font-size:60px!important;
+}
 
 /* Image Frame */
 .img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
@@ -392,10 +353,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:30px;
 }
 .bloc-divider-b-fill{
-	fill:#FFFFFF;
+	fill:#54B4E6;
+	height:px;
 }
 .bloc-divider-b-bloc-2-fill{
-	fill:#54B4E6;
+	fill:#FFFFFF;
 }
 .bloc-divider-t-fill{
 	fill:#FFFFFF;
@@ -427,6 +389,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-07484-181675-style{
 	font-weight:bold;
+}
+.bloc-divider-b-bloc-1-fill{
+	fill:#54B4E6;
 }
 
 /* = Colour
@@ -480,6 +445,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-6172:hover{
 	color:#CCCCCC!important;
+}
+
+/* Icon colour styles */
+
+.icon-4495{
+	color:var(--swatch-var-4495)!important;
+	border-color:var(--swatch-var-4495)!important;
 }
 
 /* Bloc image backgrounds */
