@@ -48,4 +48,42 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>bensteel.uk/photography/</loc>
+	<lastmod>2023-08-18</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>bensteel.uk/img/IMG_4531-Pano.jpg</image:loc>
+	<image:title>R1 06927-014A</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>bensteel.uk/img/IMG_4531-Pano.webp</image:loc>
+	<image:title>R1 06927-014A</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>bensteel.uk/img/R1-06927-014A.jpg</image:loc>
+	<image:title>R1 06927-014A</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>bensteel.uk/img/R1-06927-014A.webp</image:loc>
+	<image:title>R1 06927-014A</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>bensteel.uk/img/R1-06361-0006.jpg</image:loc>
+	<image:title>R1 06361-0006</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>bensteel.uk/img/R1-06361-0006.webp</image:loc>
+	<image:title>R1 06361-0006</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>bensteel.uk/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>bensteel.uk/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
