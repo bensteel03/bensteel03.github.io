@@ -85,6 +85,26 @@ a:hover{text-decoration: none; cursor:pointer;}
 	align-self: flex-end;
 }
 
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .row{
+	margin-left:0;
+	margin-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
 
 /* Background Textures */
 
@@ -441,6 +461,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h3-5-style{
 	font-size:20px;
 }
+.row-style{
+	width:100%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -448,7 +471,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Swatch Variables */
 :root{
 	
-	--swatch-var-190:#54B4E6;
+	--swatch-var-190:rgba(84,180,230,0.90);
 	
 	--swatch-var-3496:#3B3B3B;
 	
@@ -486,7 +509,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:rgba(0,0,0,.5)!important;
 }
 .btn-c-190:hover{
-	background:#2181B3!important;
+	background:rgba(33,129,179,0.90)!important;
 	color:rgba(0,0,0,.5)!important;
 }
 
@@ -532,6 +555,13 @@ url("img/IMG_3485@2x.webp") 2x);
 url("img/R1-02975-021A@2x.webp") 2x);background-image: image-set(url("img/R1-02975-021A@2x.jpg") 1x,
 url("img/R1-02975-021A@2x.jpg") 2x,url("img/R1-02975-021A@2x.webp") 1x,
 url("img/R1-02975-021A@2x.webp") 2x);
+}
+.bg-IMG-2991-2{
+	background-image:url("img/IMG_2991-2.jpg");
+	background-image: -webkit-image-set(url("img/IMG_2991-2.webp") 1x,
+url("img/IMG_2991-2.webp") 2x);background-image: image-set(url("img/IMG_2991-2.jpg") 1x,
+url("img/IMG_2991-2.jpg") 2x,url("img/IMG_2991-2.webp") 1x,
+url("img/IMG_2991-2.webp") 2x);
 }
 
 
