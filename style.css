@@ -471,7 +471,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Swatch Variables */
 :root{
 	
-	--swatch-var-190:rgba(84,180,230,0.90);
+	--swatch-var-190:#54B4E6;
 	
 	--swatch-var-3496:#3B3B3B;
 	
@@ -486,6 +486,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-190{
 	background-color:var(--swatch-var-190);
+}
+.bgc-3496{
+	background-color:var(--swatch-var-3496);
 }
 
 /* Text colour styles */
@@ -509,7 +512,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:rgba(0,0,0,.5)!important;
 }
 .btn-c-190:hover{
-	background:rgba(33,129,179,0.90)!important;
+	background:#2181B3!important;
 	color:rgba(0,0,0,.5)!important;
 }
 
@@ -520,6 +523,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-6363:hover{
 	color:#CCCCCC!important;
+}
+.ltc-190{
+	color:var(--swatch-var-190)!important;
+}
+.ltc-190:hover{
+	color:#2181B3!important;
 }
 
 /* Icon colour styles */
